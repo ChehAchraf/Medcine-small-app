@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');*{
+    font-family: "Poppins", serif;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f5f5f6;
+}
+
+header{
+    padding: 20px 20px;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    font-weight: 700;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+nav div img{
+    width: 70px;
+}
+.doc-title{
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.doc-name{
+    font-weight:400;
+    font-size: 14px;
+}
+.call-to-action{
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.req-text p:nth-child(1){
+    font-weight: 700;
+}
+.req-text p:nth-child(2){
+    font-size: 14px;
+    margin-top: 5px;
+}
+.req-button a{
+    text-decoration: none;
+    color :white;
+    background-color: blueviolet;
+    padding: 8px 16px;
+    border-radius: 3px;
+}
+.content{
+    padding: 20px 20px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px ;
+
+}
+.stars{
+    color: gold;
+}
+.text-content p{
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.text-content p:nth-child(2){
+    font-size: 14px;
+    font-weight: 200;
+}
+.icons{
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.icons span{
+    width: calc(80%/3);
+    text-align: center;
+    
+}
+.icons i{
+    font-size: 25px;
+    background-color: #e4edfd;
+    padding: 18px 24px  ;
+    border-radius: 20px;
+}
+.icons span:nth-child(1){
+    color:#4291f4;
+}
+.icons span:nth-child(2){
+    color:#27a962;
+}
+.icons span:nth-child(3){
+    color:#6d5bd7;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2, minmax(100px, 180px));
+    
+    gap:20px;
+}
+.cards div{
+    text-align: center;
+    align-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    
+}
+.cards div i{
+    font-size: 40px;
+    justify-content: center;
+    font-weight: 1px;
+}
+.cards div:nth-child(1) i{
+    color: green;
+}
+.cards div:nth-child(2) i{
+    color: #6f60d2;
+}
+.cards div:nth-child(3) i{
+    color: #4887f0;
+}
+.cards div:nth-child(4) i{
+    color: #f5d284;
+}
+.req-app{
+    margin-top: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.req-app a{
+    text-decoration: none;
+    color: white;
+    background-color: #6d5bd7;
+    width: inherit;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.big-titles{
+    font-weight: 700;
+    margin: 8px;
+}
+.small-titles{
+    font-weight: 200;
+    font-size: 12px;
+    padding: 0px 18px;
+}
